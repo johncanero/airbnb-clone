@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Main from '../components/Main'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-          <h1 className='mt-10 text-4xl text-center font-bold text-pinkRauschAir'>AirBnb Clone</h1>
+         <Main />
       </main>
 
       <footer>
