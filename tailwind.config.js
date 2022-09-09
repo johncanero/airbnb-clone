@@ -12,11 +12,13 @@ module.exports = {
       xl: '1440px',
     },
     extend: {
-      pinkRauschAir: '#ff5a5f',
-      cyanAir: '00A699',
-      orangeAir: 'FC642D',
-      darkGrayAir: '484848',
-      darkerGrayAir: '767676',
+      colors: {
+        pinkRauschAir: '#ff5a5f',
+        cyanAir: '00A699',
+        orangeAir: 'FC642D',
+        darkGrayAir: '484848',
+        darkerGrayAir: '767676',
+      }
     },
 
     fontFamily: {

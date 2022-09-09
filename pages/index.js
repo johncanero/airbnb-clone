@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-          <h1 className='mt-10 text-4xl text-center font-bold'>AirBnb Clone</h1>
+          <h1 className='mt-10 text-4xl text-center font-bold text-pinkRauschAir'>AirBnb Clone</h1>
       </main>
 
       <footer>
