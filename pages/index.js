@@ -11,7 +11,7 @@ export default function Home() {
         <meta itemprop="name" content="AirBnb" />
         <meta itemprop="description" content="AirBnb Clone created with Next JS and Tailwind CSS" />
         <meta itemprop="image" content="AirBnb Props" />
-        <link rel="icon" href="/airbnbFavicon.png" />
+        <link rel="icon" href="/airbnbFavicon.png" />     
       </Head>
       
       <nav>
