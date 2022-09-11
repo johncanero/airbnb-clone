@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import Card from '../components/Card'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
       <main>
           <Hero />
+          <Card />
       </main>
 
       <footer>
