@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import LionelMessi from '../components/images/lionel-messi.jpg'
-import Star from '../components/images/star16px.png'
+
 
 const Card = () => {
   return (
