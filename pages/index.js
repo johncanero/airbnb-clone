@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Card from '../components/Card'
 
-import LionelMessi from '../components/images/lionel-messi.jpg'
+
 
 
 export default function Home() {
@@ -24,18 +24,7 @@ export default function Home() {
 
       <main>
           <Hero />
-          <Card 
-              img={LionelMessi}
-              rating="5.0"
-              number="(6)"
-              country="ARG"
-              description="Life & Football Lessons with Leo Messi"
-              pricing="From $136"
-          />
-
-          <Card 
-
-          />
+          <Card />
       </main>
 
       <footer>
