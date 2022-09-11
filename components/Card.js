@@ -6,7 +6,7 @@ import Star from '../components/images/star16px.png'
 const Card = () => {
   return (
     <div>
-        <div className='px-8 md:px-12 lg:px-36'>
+        <div className='px-8 md:px-12 lg:px-36 font-Poppins'>
             <div className='scale-90'>
                 <Image 
                     src={LionelMessi}
@@ -22,7 +22,7 @@ const Card = () => {
                     <p className='ml-1'>ARG</p>
                 </div>
 
-                <p>Life Lessons & Football Tips with Leo Messi</p>
+                <p>Life & Football Lessons with Leo Messi</p>
                 <p className='font-bold'>From $136 <span className='font-normal'>/ person</span></p>    
             </div>
         </div>
