@@ -2,13 +2,14 @@ import React from 'react'
 import CardList from './CardList'
 import LionelMessi from '../components/images/lionel-messi.jpg'
 import SteveJobs from '../components/images/steve-jobs.jpg'
+import CristianoRonaldo from '../components/images/cristiano-ronaldo.jpg'
 
 
 const Card = () => {
   return (
     <div>
         <div className='md:flex'>
-            <div className='md:ml-12 drop-shadow-lg'>
+            <div className='md:ml-12 md:w-52'>
                 <CardList
                     img={LionelMessi}
                     rating="5.0"
@@ -20,13 +21,24 @@ const Card = () => {
             </div>
            
 
-            <div className='md:ml-6 drop-shadow-lg'>
+            <div className='md:ml-6 md:w-52'>
                 <CardList
                     img={SteveJobs}
                     rating="5.0"
                     number="(23)"
                     country="USA"
                     description="Creative Lessons with Steve Jobs"
+                    pricing="From $123"
+                />
+            </div>
+
+            <div className='md:ml-6 md:w-52'>
+                <CardList
+                    img={CristianoRonaldo}
+                    rating="5.0"
+                    number="(7)"
+                    country="POR"
+                    description="Football Lessons with Cristiano Ronaldo"
                     pricing="From $123"
                 />
             </div>
