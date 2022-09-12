@@ -9,7 +9,7 @@ import CristianoRonaldo from '../components/images/cristiano-ronaldo.jpg'
 const Card = () => {
   return (
     <div>
-        <div className='md:flex'>
+        <div className='mb-12 md:flex'>
            <Link href='https://messi.com/en/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='md:ml-12 md:w-52 lg:ml-36 lg:w-64'>
