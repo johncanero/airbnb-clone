@@ -12,7 +12,7 @@ const CardContent = (props) => {
             <div>
                 <Image 
                     width={300}
-                    height={400}
+                    height={390}
                     src={props.img}
                     alt=''
                     className='rounded-2xl'
