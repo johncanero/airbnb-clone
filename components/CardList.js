@@ -7,12 +7,11 @@ const CardContent = (props) => {
 
   return (
     <div>
-        <div className="max-w-sm bg-white rounded-lg grid justify-center">
-
+        <div className="mt-10 bg-white rounded-lg grid justify-center">
             <div>
                 <Image 
                     width={300}
-                    height={390}
+                    height={370}
                     src={props.img}
                     alt=''
                     className='rounded-2xl'

@@ -7,25 +7,30 @@ import SteveJobs from '../components/images/steve-jobs.jpg'
 const Card = () => {
   return (
     <div>
-        
-        <CardList
-            img={LionelMessi}
-            rating="5.0"
-            number="(6)"
-            country="ARG"
-            description="Life & Football Lessons with Leo Messi"
-            pricing="From $100"
-        />
+        <div className='md:flex'>
+            <div className='md:ml-12 drop-shadow-lg'>
+                <CardList
+                    img={LionelMessi}
+                    rating="5.0"
+                    number="(6)"
+                    country="ARG"
+                    description="Life & Football Lessons with Leo Messi"
+                    pricing="From $100"
+                />
+            </div>
+           
 
-               
-        <CardList
-            img={SteveJobs}
-            rating="5.0"
-            number="(23)"
-            country="USA"
-            description="Creative Lessons with Steve Jobs"
-            pricing="From $123"
-        />
+            <div className='md:ml-6 drop-shadow-lg'>
+                <CardList
+                    img={SteveJobs}
+                    rating="5.0"
+                    number="(23)"
+                    country="USA"
+                    description="Creative Lessons with Steve Jobs"
+                    pricing="From $123"
+                />
+            </div>
+        </div>
     </div>
   )
 }
