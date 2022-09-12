@@ -9,7 +9,7 @@ const Card = () => {
   return (
     <div>
         <div className='md:flex'>
-            <div className='md:ml-12 md:w-52'>
+            <div className='md:ml-12 md:w-52 lg:ml-36 lg:w-64'>
                 <CardList
                     img={LionelMessi}
                     rating="5.0"
@@ -21,7 +21,7 @@ const Card = () => {
             </div>
            
 
-            <div className='md:ml-6 md:w-52'>
+            <div className='md:ml-6 md:w-52 lg:w-64'>
                 <CardList
                     img={SteveJobs}
                     rating="5.0"
@@ -32,14 +32,14 @@ const Card = () => {
                 />
             </div>
 
-            <div className='md:ml-6 md:w-52'>
+            <div className='md:ml-6 md:w-52 lg:w-64'>
                 <CardList
                     img={CristianoRonaldo}
                     rating="5.0"
                     number="(7)"
                     country="POR"
                     description="Football Lessons with Cristiano Ronaldo"
-                    pricing="From $123"
+                    pricing="From $127"
                 />
             </div>
         </div>
