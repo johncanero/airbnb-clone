@@ -7,8 +7,7 @@ const CardContent = (props) => {
 
   return (
     <div>
-        {/* Place Inside a Card: Research at Flowbite */}
-        <div className="max-w-sm bg-white rounded-lg shadow-md grid justify-center">
+        <div className="max-w-sm bg-white rounded-lg grid justify-center">
 
             <div>
                 <Image 
