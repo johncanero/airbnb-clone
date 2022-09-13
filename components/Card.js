@@ -13,7 +13,8 @@ import WarrenBuffet from '../components/images/warren-buffet.jpg'
 const Card = () => {
   return (
     <div>
-        <div className='mb-12 md:flex md:flex-wrap'>
+        <div className='mb-12 md:flex md:flex-wrap lg:flex lg:flex-wrap'>
+
            <Link href='https://messi.com/en/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='md:ml-12 md:w-52 lg:ml-36 lg:w-64'>
@@ -59,10 +60,11 @@ const Card = () => {
                     </div>
                 </a>
             </Link>
-
+            
+            {/* Tablet and Desktop */}
             <Link href='https://www.tesla.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='md:ml-12 md:w-52 lg:ml-36 lg:w-64'>
+                    <div className='hidden sm:block md:ml-6 md:w-52 lg:w-64'>
                         <CardList
                             img={ElonMusk}
                             rating="5.0"
@@ -77,7 +79,7 @@ const Card = () => {
 
             <Link href='https://www.instagram.com/khaby00/?hl=en' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='md:ml-6 md:w-52 lg:w-64'>
+                    <div className='hidden sm:block md:ml-6 md:w-52 lg:w-64'>
                         <CardList
                             img={KhabyLame}
                             rating="5.0"
@@ -92,7 +94,7 @@ const Card = () => {
 
             <Link href='https://www.forbes.com/profile/warren-buffett/?sh=1ba7e92e4639' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='md:ml-6 md:w-52 lg:w-64'>
+                    <div className='hidden sm:block md:ml-6 md:w-52 lg:ml-36 lg:w-64'>
                         <CardList
                             img={WarrenBuffet}
                             rating="5.0"
