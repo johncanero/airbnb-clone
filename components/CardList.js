@@ -26,8 +26,10 @@ const CardContent = (props) => {
                 <p className='ml-1'>{props.country}</p>
             </div>
 
+            <div>
                 <p>{props.description}</p>
-                <p className='font-bold'>{props.pricing}<span className='font-normal'>/ person</span></p>  
+                <p className='font-bold'>{props.pricing}<span className='font-normal'>/ person</span></p> 
+            </div> 
         </div>
     </div>
   )
