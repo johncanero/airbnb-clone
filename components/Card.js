@@ -21,7 +21,7 @@ const Card = () => {
                         <CardList
                             img={LionelMessi}
                             rating="5.0"
-                            number="(6)"
+                            reviewCount="(6)"
                             country="ARG"
                             description="Life & Football Lessons with Leo Messi"
                             pricing="From $100"
@@ -36,7 +36,7 @@ const Card = () => {
                         <CardList
                             img={SteveJobs}
                             rating="5.0"
-                            number="(23)"
+                            reviewCount="(23)"
                             country="USA"
                             description="Creative Lessons with Steve Jobs"
                             pricing="From $123"
@@ -52,7 +52,7 @@ const Card = () => {
                         <CardList
                             img={CristianoRonaldo}
                             rating="5.0"
-                            number="(7)"
+                            reviewCount="(7)"
                             country="POR"
                             description="Football Lessons with Cristiano Ronaldo"
                             pricing="From $100"
@@ -68,7 +68,7 @@ const Card = () => {
                         <CardList
                             img={ElonMusk}
                             rating="5.0"
-                            number="(12)"
+                            reviewCount="(12)"
                             country="USA"
                             description="Fun Talk with Elon Musk"
                             pricing="From $112"
@@ -83,7 +83,7 @@ const Card = () => {
                         <CardList
                             img={KhabyLame}
                             rating="5.0"
-                            number="(22)"
+                            reviewCount="(22)"
                             country="ITA"
                             description="Content Creator Lessons with Khaby Lame"
                             pricing="From $100"
@@ -98,7 +98,7 @@ const Card = () => {
                         <CardList
                             img={WarrenBuffet}
                             rating="5.0"
-                            number="(11)"
+                            reviewCount="(11)"
                             country="USA"
                             description="Investing Lessons with Warren Buffet"
                             pricing="From $112"
