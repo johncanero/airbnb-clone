@@ -64,7 +64,7 @@ const Card = () => {
             {/* Tablet and Desktop */}
             <Link href='https://www.tesla.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='hidden sm:block md:ml-6 md:w-52 lg:w-64'>
+                    <div className='hidden sm:block md:ml-12 md:w-52 lg:ml-6 lg:w-64'>
                         <CardList
                             img={ElonMusk}
                             rating="5.0"
