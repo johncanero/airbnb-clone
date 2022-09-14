@@ -1,6 +1,7 @@
 import React from 'react'
 import CardProps from './CardProps'
 import Link from 'next/link'
+// Images
 import LionelMessi from '../public/images/lionel-messi.jpg'
 import SteveJobs from '../public/images/steve-jobs.jpg'
 import KhabyLame from '../public/images/khaby-lame.jpg'
@@ -61,7 +62,7 @@ const Card = () => {
                 </a>
             </Link>
             
-            {/* Tablet and Desktop */}
+
             <Link href='https://www.tesla.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='hidden sm:block md:ml-12 md:w-52 lg:ml-6 lg:w-64'>
