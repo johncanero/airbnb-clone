@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import AirbnbLogo from '../components/images/airbnbLogo.png'
+import AirbnbLogo from '../public/images/airbnbLogo.png'
 
 const Navbar = () => {
   return (
