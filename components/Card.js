@@ -1,12 +1,12 @@
 import React from 'react'
-import CardList from './CardList'
+import CardProps from './CardProps'
 import Link from 'next/link'
-import LionelMessi from '../components/images/lionel-messi.jpg'
-import SteveJobs from '../components/images/steve-jobs.jpg'
-import KhabyLame from '../components/images/khaby-lame.jpg'
-import CristianoRonaldo from '../components/images/cristiano-ronaldo.jpg'
-import ElonMusk from '../components/images/elon-musk.jpg'
-import WarrenBuffet from '../components/images/warren-buffet.jpg'
+import LionelMessi from '../public/images/lionel-messi.jpg'
+import SteveJobs from '../public/images/steve-jobs.jpg'
+import KhabyLame from '../public/images/khaby-lame.jpg'
+import CristianoRonaldo from '../public/images/cristiano-ronaldo.jpg'
+import ElonMusk from '../public/images/elon-musk.jpg'
+import WarrenBuffet from '../public/images/warren-buffet.jpg'
 
 
 
@@ -18,7 +18,7 @@ const Card = () => {
            <Link href='https://messi.com/en/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='md:ml-12 md:w-52 lg:ml-36 lg:w-64'>
-                        <CardList
+                        <CardProps
                             img={LionelMessi}
                             rating="5.0"
                             reviewCount="(6)"
@@ -33,7 +33,7 @@ const Card = () => {
             <Link href='https://www.apple.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='md:ml-6 md:w-52 lg:w-64'>
-                        <CardList
+                        <CardProps
                             img={SteveJobs}
                             rating="5.0"
                             reviewCount="(23)"
@@ -49,7 +49,7 @@ const Card = () => {
             <Link href='https://www.cristianoronaldo.com/#cr7' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='hidden sm:block  md:ml-6 md:w-52 lg:w-64'>
-                        <CardList
+                        <CardProps
                             img={CristianoRonaldo}
                             rating="5.0"
                             reviewCount="(7)"
@@ -65,7 +65,7 @@ const Card = () => {
             <Link href='https://www.tesla.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='hidden sm:block md:ml-12 md:w-52 lg:ml-6 lg:w-64'>
-                        <CardList
+                        <CardProps
                             img={ElonMusk}
                             rating="5.0"
                             reviewCount="(12)"
@@ -80,7 +80,7 @@ const Card = () => {
             <Link href='https://www.instagram.com/khaby00/?hl=en' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='hidden sm:block md:ml-6 md:w-52 lg:w-64'>
-                        <CardList
+                        <CardProps
                             img={KhabyLame}
                             rating="5.0"
                             reviewCount="(22)"
@@ -95,7 +95,7 @@ const Card = () => {
             <Link href='https://www.forbes.com/profile/warren-buffett/?sh=1ba7e92e4639' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <div className='md:ml-6 md:w-52 lg:ml-36 lg:w-64'>
-                        <CardList
+                        <CardProps
                             img={WarrenBuffet}
                             rating="5.0"
                             reviewCount="(11)"

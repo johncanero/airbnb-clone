@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 
-const CardContent = (props) => {
+const CardProps = (props) => {
 
 
   return (
@@ -35,5 +35,5 @@ const CardContent = (props) => {
   )
 }
 
-export default CardContent
+export default CardProps
 
