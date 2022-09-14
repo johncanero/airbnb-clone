@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import AirbnnbGrid from '../components/images/airbnbGrid.png'
+import AirbnnbGrid from '../public/images/airbnbGrid.png'
 
 const Hero = () => {
   return (
