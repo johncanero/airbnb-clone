@@ -48,7 +48,7 @@ const Card = () => {
 
             <Link href='https://www.cristianoronaldo.com/#cr7' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='md:ml-6 md:w-52 lg:w-64'>
+                    <div className='hidden sm:block  md:ml-6 md:w-52 lg:w-64'>
                         <CardList
                             img={CristianoRonaldo}
                             rating="5.0"
@@ -94,7 +94,7 @@ const Card = () => {
 
             <Link href='https://www.forbes.com/profile/warren-buffett/?sh=1ba7e92e4639' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='hidden sm:block md:ml-6 md:w-52 lg:ml-36 lg:w-64'>
+                    <div className='md:ml-6 md:w-52 lg:ml-36 lg:w-64'>
                         <CardList
                             img={WarrenBuffet}
                             rating="5.0"
