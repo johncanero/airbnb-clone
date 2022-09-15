@@ -113,7 +113,6 @@ const Card = () => {
                 </div>
                 </a>
             </Link>
-            
         </div>
     </div>
   )
