@@ -81,6 +81,7 @@ const Card = () => {
                     </div>
                 </a>
             </Link>
+            
 
             <Link href='https://www.instagram.com/khaby00/?hl=en' passHref>
                 <a target="_blank" rel="noopener noreferrer">
