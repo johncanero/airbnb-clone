@@ -9,6 +9,7 @@ const CardProps = (props) => {
     <div>
         <div className="mt-10 bg-white rounded-lg grid justify-center">
             <div>
+                <span class="bg-white text-black text-sm font-medium mt-2 ml-2 px-2 py-0.5 rounded  absolute z-10">SOLD OUT</span>
                 <Image 
                     width={300}
                     height={370}
