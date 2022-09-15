@@ -14,11 +14,11 @@ import WarrenBuffet from '../public/images/warren-buffet.jpg'
 const Card = () => {
   return (
     <div>
-        <div className='mb-12 md:flex md:flex-wrap lg:flex lg:flex-wrap'>
+        <div className='mb-12 md:flex md:flex-wrap md:justify-center lg:flex lg:flex-wrap lg:justify-center'>
 
            <Link href='https://messi.com/en/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='md:ml-12 md:w-52 lg:ml-36 lg:w-52'>
+                    <div className='md:w-52 lg:w-52'>
                         <CardProps
                             img={LionelMessi}
                             rating="5.0"
@@ -68,7 +68,7 @@ const Card = () => {
 
             <Link href='https://www.tesla.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='hidden sm:block md:ml-12 md:w-52 lg:ml-8 lg:w-52'>
+                    <div className='hidden sm:block md:w-52 lg:ml-8 lg:w-52'>
                         <CardProps
                             img={ElonMusk}
                             rating="5.0"

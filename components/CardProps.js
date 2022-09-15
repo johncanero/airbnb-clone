@@ -15,7 +15,7 @@ const CardProps = (props) => {
     <div>
         <div className="mt-10 bg-white rounded-lg grid justify-center">
             <div>
-                {badgeText && <div class="bg-white text-black text-sm font-medium mt-2 ml-2 px-2 py-0.5 rounded absolute z-10">{badgeText}</div>}
+                {badgeText && <div class="bg-white text-black text-sm font-medium mt-2 ml-2 px-2 py-0.5 rounded absolute z-10 shadow-md">{badgeText}</div>}
                 <Image 
                     width={300}
                     height={370}

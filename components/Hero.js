@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
 
         {/* Hero Content */}
-        <div className='mt-10 px-8 md:px-12 lg:px-36 lg:mt-16'>
+        <div className='container mx-auto mt-10 px-8 md:px-12 lg:px-4  lg:mt-16'>
             <h1 className='font-bold text-xl text-center md:text-5xl md:text-left font-Poppins'>Online Experiences</h1>
             <p className='font-light text-center mt-5 md:text-left md:text-2xl md:pr-64 font-Poppins '>Join unique interactive activities led by one-of-a-kind hosts-all without leaving home.</p>
         </div>
