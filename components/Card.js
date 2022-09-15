@@ -26,6 +26,7 @@ const Card = () => {
                             country="ARG"
                             description="Life & Football Lessons with Leo Messi"
                             pricing="From $100"
+                            openSpots={0}
                         />
                     </div>
                 </a>
@@ -73,6 +74,7 @@ const Card = () => {
                             country="USA"
                             description="Fun Talk with Elon Musk"
                             pricing="From $112"
+                            openSpots={0}
                         />
                     </div>
                 </a>
@@ -103,6 +105,7 @@ const Card = () => {
                             country="USA"
                             description="Investing Lessons with Warren Buffet"
                             pricing="From $112"
+                            openSpots={0}
                         />
                 </div>
                 </a>
