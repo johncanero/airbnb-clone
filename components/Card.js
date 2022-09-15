@@ -18,7 +18,7 @@ const Card = () => {
 
            <Link href='https://messi.com/en/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='md:ml-12 md:w-52 lg:ml-36 lg:w-64'>
+                    <div className='md:ml-12 md:w-52 lg:ml-36 lg:w-52'>
                         <CardProps
                             img={LionelMessi}
                             rating="5.0"
@@ -33,7 +33,7 @@ const Card = () => {
 
             <Link href='https://www.apple.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='md:ml-6 md:w-52 lg:w-64'>
+                    <div className='md:ml-6 md:w-52 lg:ml-8 lg:w-52'>
                         <CardProps
                             img={SteveJobs}
                             rating="5.0"
@@ -49,7 +49,7 @@ const Card = () => {
 
             <Link href='https://www.cristianoronaldo.com/#cr7' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='hidden sm:block  md:ml-6 md:w-52 lg:w-64'>
+                    <div className='hidden sm:block md:ml-6 md:w-52 lg:ml-8 lg:w-52'>
                         <CardProps
                             img={CristianoRonaldo}
                             rating="5.0"
@@ -65,7 +65,7 @@ const Card = () => {
 
             <Link href='https://www.tesla.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='hidden sm:block md:ml-12 md:w-52 lg:ml-6 lg:w-64'>
+                    <div className='hidden sm:block md:ml-12 md:w-52 lg:ml-8 lg:w-52'>
                         <CardProps
                             img={ElonMusk}
                             rating="5.0"
@@ -80,7 +80,7 @@ const Card = () => {
 
             <Link href='https://www.instagram.com/khaby00/?hl=en' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='hidden sm:block md:ml-6 md:w-52 lg:w-64'>
+                    <div className='hidden sm:block md:ml-6 md:w-52 lg:ml-8 lg:w-52'>
                         <CardProps
                             img={KhabyLame}
                             rating="5.0"
@@ -95,7 +95,7 @@ const Card = () => {
 
             <Link href='https://www.forbes.com/profile/warren-buffett/?sh=1ba7e92e4639' passHref>
                 <a target="_blank" rel="noopener noreferrer">
-                    <div className='md:ml-6 md:w-52 lg:ml-36 lg:w-64'>
+                    <div className='md:ml-6 md:w-52 lg:ml-8 lg:w-52'>
                         <CardProps
                             img={WarrenBuffet}
                             rating="5.0"
