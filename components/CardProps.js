@@ -4,12 +4,18 @@ import Image from 'next/image'
 
 const CardProps = (props) => {
 
+  let badgeText 
+  if (props.openSpots === 0) {
+    badgeText = "SOLD OUT"
+  } else if (props.onlineSpots === "Online") {
+    badgeText = "ONLINE"
+  }
 
   return (
     <div>
         <div className="mt-10 bg-white rounded-lg grid justify-center">
             <div>
-                {props.openSpots === 0 && <div class="bg-white text-black text-sm font-medium mt-2 ml-2 px-2 py-0.5 rounded absolute z-10">SOLD OUT</div>}
+                {badgeText && <div class="bg-white text-black text-sm font-medium mt-2 ml-2 px-2 py-0.5 rounded absolute z-10">{badgeText}</div>}
                 <Image 
                     width={300}
                     height={370}

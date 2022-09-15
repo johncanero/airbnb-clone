@@ -42,6 +42,7 @@ const Card = () => {
                             country="USA"
                             description="Creative Lessons with Steve Jobs"
                             pricing="From $123"
+                            onlineSpots="Online"
                         />
                 </div>
                 </a>
@@ -58,6 +59,7 @@ const Card = () => {
                             country="POR"
                             description="Football Lessons with Cristiano Ronaldo"
                             pricing="From $100"
+                            onlineSpots="Online"
                         />
                     </div>
                 </a>
@@ -90,6 +92,7 @@ const Card = () => {
                             country="ITA"
                             description="Content Creator Lessons with Khaby Lame"
                             pricing="From $100"
+                            onlineSpots="Online"
                         />
                 </div>
                 </a>
