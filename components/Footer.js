@@ -16,7 +16,7 @@ const Footer = () => {
     <div>
       <footer className="p-10 sm:p-6 bg-darkGrayAir md:p-12">
         {/* Footer Upper Section */}
-        <div className="md:flex md:justify-between">
+        <div className="md:flex md:justify-between lg:container lg:mx-auto">
           {/* Logo */}
           <div className="mb-6 md:mb-0">
             <Link href="https://www.airbnb.com/">
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
 
           {/* Resources */}
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:grid-cols-2 md:gap-20">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:grid-cols-2 md:gap-20 lg:gap-32">
             <div>
               <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Resources
@@ -98,20 +98,19 @@ const Footer = () => {
         </div>
 
         {/* Horizontal Break */}
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-500 lg:my-8" />
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-500 lg:my-8 lg:container lg:mx-auto" />
 
-        <div className="sm:flex sm:items-center sm:justify-between">
-
+        <div className="sm:flex sm:items-center sm:justify-between md:justify-between lg:container mx-auto">
           <span className="text-sm text-white sm:text-center">
             © 2022{" "}
             <a href="https://flowbite.com/" className="hover:underline">
-              Flowbite™
+              Scrimba
             </a>
             . All Rights Reserved.
           </span>
 
           {/* Icons */}
-          <div className="flex mt-6 space-x-6 sm:justify-center sm:mt-0 md:gap-4">
+          <div className="flex mt-6 space-x-6 sm:justify-center sm:mt-0 md:gap-4 lg:gap-8">
             <Link href="https://www.facebook.com/canerojohn/">
               <a
                 target="_blank"
@@ -130,24 +129,23 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
-                >
+              >
                 <FontAwesomeIcon
-                icon={faInstagram}
-                className="w-5 ml-4 text-gray-400 mt-2 hover:text-pinkRauschAir"
+                  icon={faInstagram}
+                  className="w-5 ml-4 text-gray-400 mt-2 hover:text-pinkRauschAir"
                 ></FontAwesomeIcon>
               </a>
             </Link>
-            
-            
+
             <Link href="https://twitter.com/johncaneroo">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
-                >
+              >
                 <FontAwesomeIcon
-                icon={faTwitter}
-                className="w-5 ml-4 text-gray-400 mt-2 hover:text-pinkRauschAir"
+                  icon={faTwitter}
+                  className="w-5 ml-4 text-gray-400 mt-2 hover:text-pinkRauschAir"
                 ></FontAwesomeIcon>
               </a>
             </Link>
@@ -157,10 +155,10 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
-                >
+              >
                 <FontAwesomeIcon
-                icon={faGithub}
-                className="w-5 ml-4 text-gray-400 mt-2 hover:text-pinkRauschAir"
+                  icon={faGithub}
+                  className="w-5 ml-4 text-gray-400 mt-2 hover:text-pinkRauschAir"
                 ></FontAwesomeIcon>
               </a>
             </Link>
