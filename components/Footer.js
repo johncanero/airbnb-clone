@@ -33,7 +33,7 @@ const Footer = () => {
           {/* Resources */}
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:grid-cols-2 md:gap-20 lg:gap-32">
             <div>
-              <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-4 text-sm font-semibold uppercase text-gray-200">
                 Resources
               </h2>
 
@@ -65,7 +65,7 @@ const Footer = () => {
 
             {/* Follow Us */}
             <div>
-              <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-4 text-sm font-semibold uppercase text-gray-200">
                 Follow us
               </h2>
 
