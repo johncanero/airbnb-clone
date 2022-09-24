@@ -17,7 +17,7 @@
 
 # AirBnb Clone
 
-This is the AirBnb Clone Project from Scrimba Project Lesson
+This is the AirBnb Clone Project from Scrimba Project Lesson Module # 2.
 
 It is made with Next JS utilizing the React Props Component.
 
