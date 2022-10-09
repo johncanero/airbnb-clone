@@ -8,6 +8,13 @@ import KhabyLame from "../public/images/khaby-lame.jpg";
 import CristianoRonaldo from "../public/images/cristiano-ronaldo.jpg";
 import ElonMusk from "../public/images/elon-musk.jpg";
 import WarrenBuffet from "../public/images/warren-buffet.jpg";
+import MrBeast from "../public/images/mr-beast.jpg";
+import CoderCoder from "../public/images/coder-coder.jpg";
+import NinongRy from "../public/images/ninong-ry.jpg";
+import ArchitectAustria from "../public/images/austria-architect.jpg";
+import KsiSidemen from "../public/images/ksi-sidemen.jpg";
+import JappyArtist from "../public/images/jappy-artist.jpg";
+
 
 const Card = () => {
   return (
@@ -114,31 +121,31 @@ const Card = () => {
 
         {/* Desktop and Tablet */}
         <div className="flex flex-wrap justify-center">
-          <Link href="https://messi.com/en/" passHref>
+          <Link href="https://www.youtube.com/user/MrBeast6000" passHref>
             <a target="_blank" rel="noopener noreferrer">
               <div className="hidden sm:block md:w-52 lg:w-52">
                 <CardProps
-                  img={LionelMessi}
+                  img={MrBeast}
                   rating="5.0"
-                  reviewCount="(6)"
-                  country="ARG"
-                  description="Life & Football Lessons with Leo Messi"
-                  pricing="From $100"
-                  openSpots={0}
+                  reviewCount="(32)"
+                  country="USA"
+                  description="Content Creator Leassons with MrBeast"
+                  pricing="From $89"
+                  onlineSpots="Online"
                 />
               </div>
             </a>
           </Link>
 
-          <Link href="https://www.apple.com/" passHref>
+          <Link href="https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ" passHref>
             <a target="_blank" rel="noopener noreferrer">
-              <div className="hidden sm:block md:ml-6 md:w-52 lg:ml-8 lg:w-52">
+              <div className="md:ml-6 md:w-52 lg:ml-8 lg:w-52">
                 <CardProps
-                  img={SteveJobs}
+                  img={CoderCoder}
                   rating="5.0"
                   reviewCount="(23)"
                   country="USA"
-                  description="Creative Lessons with Steve Jobs"
+                  description="Web Development Tips with Jess Chan"
                   pricing="From $123"
                   onlineSpots="Online"
                 />
@@ -146,31 +153,31 @@ const Card = () => {
             </a>
           </Link>
 
-          <Link href="https://www.cristianoronaldo.com/#cr7" passHref>
+          <Link href="https://www.facebook.com/search/top?q=ninong%20ry" passHref>
             <a target="_blank" rel="noopener noreferrer">
               <div className="hidden sm:block md:ml-6 md:w-52 lg:ml-8 lg:w-52">
                 <CardProps
-                  img={CristianoRonaldo}
+                  img={NinongRy}
                   rating="5.0"
-                  reviewCount="(7)"
-                  country="POR"
-                  description="Football Lessons with Cristiano Ronaldo"
-                  pricing="From $100"
+                  reviewCount="(64)"
+                  country="PH"
+                  description="Cooking Lessons from Ninong Ry"
+                  pricing="From $99"
                   onlineSpots="Online"
                 />
               </div>
             </a>
           </Link>
 
-          <Link href="https://www.tesla.com/" passHref>
+          <Link href="https://www.youtube.com/c/OliverAustria" passHref>
             <a target="_blank" rel="noopener noreferrer">
               <div className="hidden sm:block md:w-52 lg:ml-8 lg:w-52">
                 <CardProps
-                  img={ElonMusk}
+                  img={ArchitectAustria}
                   rating="5.0"
-                  reviewCount="(12)"
-                  country="USA"
-                  description="Fun Talk with Elon Musk"
+                  reviewCount="(42)"
+                  country="PH"
+                  description="Architecture Talk with Architect Oliver Austria"
                   pricing="From $112"
                   openSpots={0}
                 />
@@ -178,16 +185,16 @@ const Card = () => {
             </a>
           </Link>
 
-          <Link href="https://www.instagram.com/khaby00/?hl=en" passHref>
+          <Link href="https://www.instagram.com/jappyagoncillo/" passHref>
             <a target="_blank" rel="noopener noreferrer">
               <div className="hidden sm:block md:ml-6 md:w-52 lg:ml-8 lg:w-52">
                 <CardProps
-                  img={KhabyLame}
+                  img={JappyArtist}
                   rating="5.0"
-                  reviewCount="(22)"
-                  country="ITA"
-                  description="Content Creator Lessons with Khaby Lame"
-                  pricing="From $100"
+                  reviewCount="(23)"
+                  country="PH"
+                  description="Artist Lessons from Jappy"
+                  pricing="From $79"
                   onlineSpots="Online"
                 />
               </div>
@@ -195,18 +202,18 @@ const Card = () => {
           </Link>
 
           <Link
-            href="https://www.forbes.com/profile/warren-buffett/?sh=1ba7e92e4639"
+            href="https://www.youtube.com/c/ksi"
             passHref
           >
             <a target="_blank" rel="noopener noreferrer">
               <div className="hidden sm:block md:ml-6 md:w-52 lg:ml-8 lg:w-52">
                 <CardProps
-                  img={WarrenBuffet}
+                  img={KsiSidemen}
                   rating="5.0"
-                  reviewCount="(11)"
+                  reviewCount="(12)"
                   country="USA"
-                  description="Investing Lessons with Warren Buffet"
-                  pricing="From $112"
+                  description="Lessons to Be a Sidemen"
+                  pricing="From $109"
                   openSpots={0}
                 />
               </div>
