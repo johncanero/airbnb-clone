@@ -171,7 +171,7 @@ const Card = () => {
 
           <Link href="https://www.youtube.com/c/OliverAustria" passHref>
             <a target="_blank" rel="noopener noreferrer">
-              <div className="hidden sm:block md:w-52 lg:ml-8 lg:w-52">
+              <div className="md:w-52 lg:ml-8 lg:w-52">
                 <CardProps
                   img={ArchitectAustria}
                   rating="5.0"
