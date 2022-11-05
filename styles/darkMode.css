@@ -88,3 +88,17 @@ nav.dark {
   nav.dark .toggler--slider {
     justify-content: flex-end;
   }
+
+ /* Mobile - Main Content */
+main {
+    min-height: 600px;
+    margin-bottom: 0px;
+    flex: 1 1 auto;
+    background-color: white;
+    color: #2B283A;
+  }
+  
+  main.dark {
+    background-color: #121212;
+    color: white;    
+  }

@@ -21,7 +21,7 @@ const Navbar = (props) => {
           </Link>
 
           {/* Toggle Feature = Dark Mode */}
-          <div className="toggler">
+          <div className="toggler font-Poppins">
             <p className="toggler--light">Light</p>
             <div className="toggler--slider" onClick={props.toggleDarkMode}>
               <div className="toggler--slider--circle"></div>

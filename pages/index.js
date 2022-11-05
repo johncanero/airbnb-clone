@@ -33,8 +33,8 @@ export default function Home() {
       </nav>
 
       <main>
-        <Hero />
-        <Card />
+        <Hero darkMode={darkMode} />
+        <Card darkMode={darkMode} />
       </main>
 
       <footer>

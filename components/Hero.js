@@ -3,11 +3,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AirbnnbGrid from '../public/images/airbnbGrid.png'
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <div>
-        {/* Hero Image */}
-        <div className='m-auto w-80 mt-7 md:w-3/4 md:mt-9 lg:mt-12 flex justify-center'>
+    <main className={props.darkMode ? "" : "dark"}>
+        <div className='m-auto w-80 pt-7 md:w-3/4 md:pt-9 lg:pt-12 flex justify-center'>
             <Link href='https://www.airbnb.com/' passHref>
                 <a target="_blank" rel="noopener noreferrer">
                     <Image
@@ -26,7 +25,7 @@ const Hero = () => {
         </div>
     
 
-    </div>
+    </main>
   )
 }
 
