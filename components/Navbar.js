@@ -5,8 +5,8 @@ import AirbnbLogo from "../public/images/airbnbLogo.png";
 
 const Navbar = (props) => {
   return (
-    <nav className={props.darkMode ? "dark" : ""}>
-      <div className="px-8 p-6 bg-white border-gray-200 dark:border-gray-700 shadow-md md:px-10">
+    <nav className={props.darkMode ? "" : "dark"}>
+      <div className="px-8 py-6 md:px-10">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="https://www.airbnb.com/">
             <a
@@ -20,7 +20,7 @@ const Navbar = (props) => {
             </a>
           </Link>
 
-          {/* Toggle */}
+          {/* Toggle Feature = Dark Mode */}
           <div className="toggler">
             <p className="toggler--light">Light</p>
             <div className="toggler--slider" onClick={props.toggleDarkMode}>
