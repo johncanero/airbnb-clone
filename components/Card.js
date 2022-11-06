@@ -16,10 +16,10 @@ import KsiSidemen from "../public/images/ksi-sidemen.jpg";
 import JappyArtist from "../public/images/jappy-artist.jpg";
 
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div>
-      <div className="mb-12 md:flex md:flex-wrap md:justify-center lg:flex lg:flex-wrap lg:justify-center">
+    <main className={props.darkMode ? "" : "dark"}>
+      <div className="pb-12 md:flex md:flex-wrap md:justify-center lg:flex lg:flex-wrap lg:justify-center">
         <Link href="https://messi.com/en/" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <div className="md:w-52 lg:w-52">
@@ -221,7 +221,7 @@ const Card = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
