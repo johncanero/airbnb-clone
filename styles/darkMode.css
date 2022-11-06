@@ -1,7 +1,7 @@
 /* Navbar */
 nav {
   display: block;
-  background-color: #ffffff;
+  background-color: rgb(244 244 245);
   align-items: center;
   height: 85px;
   width: 100%;
@@ -11,7 +11,7 @@ nav {
 
 nav.dark {
   width: 100%;
-  background-color: #121212;
+  background-color: rgb(23 23 23);
 }
 
 .nav--logo_icon {
@@ -91,7 +91,6 @@ nav.dark {
 
  /* Mobile - Main Content */
 main {
-    min-height: 600px;
     margin-bottom: 0px;
     flex: 1 1 auto;
     background-color: white;

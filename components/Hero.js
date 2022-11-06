@@ -23,8 +23,6 @@ const Hero = (props) => {
             <h1 className='font-bold text-xl text-center md:text-5xl md:text-left font-Poppins'>Online Experiences</h1>
             <p className='font-light text-center mt-5 md:text-left md:text-2xl md:pr-64 font-Poppins '>Join unique interactive activities led by one-of-a-kind hosts-all without leaving home.</p>
         </div>
-    
-
     </main>
   )
 }
