@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AirbnnbGrid from '../public/images/airbnbGrid.png'
 
+
 const Hero = (props) => {
   return (
     <main className={props.darkMode ? "" : "dark"}>

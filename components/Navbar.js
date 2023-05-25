@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import AirbnbLogo from "../public/images/airbnbLogo.png";
+import Login from "./Login";
 
 const Navbar = (props) => {
   return (
@@ -22,6 +23,8 @@ const Navbar = (props) => {
 
           {/* Toggle Feature = Dark Mode */}
           <div className="toggler font-Poppins">
+            {/* Login Button */}
+            <Login />
             <p className="toggler--light">Light</p>
             <div className="toggler--slider" onClick={props.toggleDarkMode}>
               <div className="toggler--slider--circle"></div>
