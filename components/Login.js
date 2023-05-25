@@ -21,7 +21,7 @@ const Login = ({}) => {
           }),
           React.createElement(
             "p",
-            { className: "hidden md:block lg:mt-4 lg:mr-4 md:mr-3 md:mt-2" },
+            { className: "hidden md:block lg:mt-4 lg:mr-4 md:mr-3 md:mt-2 text-neutral-500" },
             session.user && session.user.name
           )
         )
